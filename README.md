@@ -15,18 +15,7 @@ models.npy：预训练好的HMM模型参数文件
 GMM_hmm.py：包含compute_B_map和decoder函数的脚本
 isolated_word_recognition.py：包含extract_MFCC函数的脚本
 测试音频文件（WAV格式）
-文件结构示例
-project/
-│
-├── models.npy                 # 训练好的模型文件
-├── GMM_hmm.py                 # HMM相关函数
-├── isolated_word_recognition.py  # 特征提取函数
-├── main.py                    # 主运行脚本（即上述代码）
-├── train/                     # 训练数据目录（包含音频）
-│   └── train/
-│       └── 2/
-│           └── 1.wav
-└── test/                      # 测试数据目录
+
 使用说明
 准备好测试音频文件（wav格式），并修改 wav_file 变量指向正确路径。
 确认 models.npy 模型文件存在于项目根目录。
